@@ -65,7 +65,7 @@ regla_gameover = {
 # ==================================
 # NAVEGACION ESPACIAL
 # ==================================
-# Accion estelar: cada comando del jugador vinculado a una tecla
+# Accion estelar = cada comando del jugador vinculado a una tecla
 
 controles = {
 	# Movimiento horizontal del asteroide
@@ -88,8 +88,8 @@ controles = {
 # (Las definiciones de los fragmentos saltelite, cubo, Triangulo, Asteroide, Galaxia, Serpiente, rayo y la bomba se mantienen igual)
 # ... [fragmentos] ...
 fragmento_satelite = {
-    color= "blanco",
-    variantes= [
+    color = "blanco"
+    variantes = [
         # Rotacion 0 y 180 (horizontal)
         [ [0, 0, 0, 0], [1, 1, 1, 1], [0, 0, 0, 0], [0, 0, 0, 0] ],
         # Rotacion 90 y 270 (vertical)
@@ -98,16 +98,16 @@ fragmento_satelite = {
 }
 
 fragmento_cubo = {
-    color= "dorado",
-    variantes= [
+    color = "dorado"
+    variantes = [
         # No cambia al rotar
         [ [1, 1], [1, 1] ]
     ]
 }
 
 fragmento_triangulo = {
-    color= "Morado",
-    variantes= [
+    color = "Morado"
+    variantes = [
         # Rotacion 0
         [ [0, 1, 0], [1, 1, 1], [0, 0, 0] ],
         # Rotacion 90
@@ -120,8 +120,8 @@ fragmento_triangulo = {
 }
 
 fragmento_serpiente = {
-    color= "verde_neon",
-    variantes= [
+    color = "verde_neon"
+    variantes = [
         # Rotacion 0
         [ [0, 1, 1], [1, 1, 0], [0, 0, 0] ],
         # Rotacion 90
@@ -130,8 +130,8 @@ fragmento_serpiente = {
 }
 
 fragmento_rayo = {
-    color= "rojo_fuego",
-    variantes= [
+    color = "rojo_fuego"
+    variantes = [
         # Rotacion 0
         [ [1, 1, 0], [0, 1, 1], [0, 0, 0] ],
         # Rotacion 90
@@ -142,8 +142,8 @@ fragmento_rayo = {
 # fragmento para el meteorito, que es una sola constelación.
 # Para evitar errores en la lógica de rotación, definimos una sola rotación.
 fragmento_meteorito = {
-    "color"= "negro_ardiente",
-    variantes= [
+    color = "negro_ardiente"
+    variantes = [
         [ [1] ]
     ]
 }
